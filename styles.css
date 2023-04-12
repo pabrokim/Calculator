@@ -1,31 +1,61 @@
 body {
+    background-color: transparent;
     padding: 0px;
-    background-color: rgb(39, 41, 41);
+    margin-top:30px;
     display:flex;
-    justify-content: center;
-    align-items: center;
-   
-
- }
- .displ {
-    height: 50px;
-    border: 1px solid white;
- }
-
-.calc {
-    width: 300px;
-    border: 1px solid white;
+    justify-content: center;    
 }
-
+.calc {
+    width: 350px;
+    border: 1px solid rgb(247, 115, 188);
+    border-radius: 5px;
+    background-color: rgb(121, 118, 118);
+}
+#displ {
+    background-color: rgb(63, 62, 62);
+    height: 50px;
+    border: 2px solid white;
+    margin: 20px 5px;
+    border-radius: 8px;
+    color: white;
+    padding: 10px;
+    font-size: 40px;
+    text-align:right;
+    padding-top: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    width:318px;
+}
 .buttons {
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
-}
+   
+    padding: 6px;
+    margin-top: -5px;
     
-
+    border-radius: 10px;
+}   
 .btn {
-    display: flex;
-    width: 60px;
-    
+    background-color: rgb(63, 62, 62);
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold; 
+}
+.btn:hover {
+    background-color: rgb(133, 131, 131);
+}
+#equal {
+    background-color:rgb(247, 115, 188);
+    width: 160px;
+}
+#clearBtn {
+    width: 160px;
+}
+.btn.oprs {
+    background-color:rgb(247, 115, 188);
 }
